@@ -1,0 +1,13 @@
+.layotParent {
+  min-width: 90vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Outlet {
+  flex-grow: 1;
+  width: 90%;
+}

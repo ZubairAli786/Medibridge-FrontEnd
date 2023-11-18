@@ -1,0 +1,23 @@
+.header {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLinks {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.linkName {
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
