@@ -7,16 +7,106 @@
 
 .homeheader {
   width: 100%;
-  height: 100px;
+  height: 90px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  color: blue;
+  border-bottom: 2px solid gainsboro;
+  border-radius: 1px;
 }
 
 .homebody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.bodytop {
+  width: 100%;
+  height: 370px;
+  border-bottom: 2px solid gainsboro;
+  padding-top: 35px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.left {
+  width: 45%;
+  height: 320px;
+  float: left;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.imgcontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgcontainer img:hover {
+  transform: scale(1.1);
+}
+.right {
+  width: 55%;
+  height: 320px;
+  float: right;
+  display: flex;
+  padding-left: 60px;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+h1:hover {
+  color: rgb(24, 24, 153);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.topics {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: blue;
+  border-bottom: 2px solid gainsboro;
+  border-radius: 1px;
+}
+
+.CDC {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  border-bottom: 2px solid gainsboro;
+  border-radius: 1px;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.cdctop {
+  width: 100%;
+  height: 490px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cdcbottum {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.diseaseCardParent {
   width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
 }
